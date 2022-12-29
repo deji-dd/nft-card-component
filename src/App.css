@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.card-div {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 590px;
+  margin: auto;
+  border-radius: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nft-img {
+  border-radius: 0.5rem;
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ethereum-p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.clock-p {
+  text-align: right;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  float: left;
+  margin-top: 0.3rem;
+  margin-right: 0.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-5 {
+  width: 9rem;
+}
+
+.clock-div {
+  padding-left: 1.7rem;
+}
+
+.avatar-img {
+  border-color: white;
+  border-style: solid;
+  float: left;
+}
+
+.avatar-p {
+  padding-top: 0.1rem;
+}
+
+.nft-div {
+  position: relative;
+}
+
+.view-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.view-div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 0.5rem;
 }
